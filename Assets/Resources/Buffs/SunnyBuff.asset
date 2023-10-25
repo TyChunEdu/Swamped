@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62e8b846050cbb4a87b37c876bd14b0, type: 3}
+  m_Name: SunnyBuff
+  m_EditorClassIdentifier: 
+  activeDay: 02000000030000000400000005000000
+  effects:
+    energyMultiplier: 0.9
+    thirstMultiplier: 1
+    hungerMultiplier: 1
+    resourceCollectionMultiplier: 1
+    craftingSuccessRateMultiplier: 0.95
+    foodConsumptionMultiplier: 1
+    craftingConsumptionMultiplier: 1
+    drinkingConsumptionMultiplier: 1
+    numOfMissionsForTheDay: 1
+    isRampaging: 0
+  buffName: It's Sunny Out!
+  description: Bee Bot will generate double the items. Crafting is slightly less
+    successful and stamina will go down faster.
+  mission: {fileID: 11400000, guid: 0a3947af6ea70ea46a532ad4647ec60e, type: 2}

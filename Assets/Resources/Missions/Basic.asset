@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62391ce7187849c986c9364c07732a19, type: 3}
+  m_Name: Basic
+  m_EditorClassIdentifier: 
+  description: It's a great day to explore.
+  lengthInHours: 4
+  minimumDay: 1
+  maximumDay: 1
+  startMissionPrompt: Go outside!
+  difficulty: Easy
+  greatOutcome:
+    description: You find the rusty remains of a robot.
+    reward:
+      entries:
+      - key: {fileID: 11400000, guid: 968c5ec63c8953241828f4b563b712db, type: 2}
+        value: 5
+    energyPercentChange: -10
+    randomRewardQuantity: 0
+    randomReward:
+      entries: []
+  neutralOutcome:
+    description: You find a piece of cookware.
+    reward:
+      entries:
+      - key: {fileID: 11400000, guid: 968c5ec63c8953241828f4b563b712db, type: 2}
+        value: 2
+    energyPercentChange: -10
+    randomRewardQuantity: 0
+    randomReward:
+      entries: []
+  badOutcome:
+    description: You find a few sticks on the ground.
+    reward:
+      entries:
+      - key: {fileID: 11400000, guid: 16778d82eefa50d4895588ca844c5372, type: 2}
+        value: 2
+    energyPercentChange: -10
+    randomRewardQuantity: 0
+    randomReward:
+      entries: []
+  timeLimit: 10

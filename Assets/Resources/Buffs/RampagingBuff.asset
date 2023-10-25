@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62e8b846050cbb4a87b37c876bd14b0, type: 3}
+  m_Name: RampagingBuff
+  m_EditorClassIdentifier: 
+  activeDay: 08000000090000000a000000
+  effects:
+    energyMultiplier: 1
+    thirstMultiplier: 1
+    hungerMultiplier: 1
+    resourceCollectionMultiplier: 1
+    craftingSuccessRateMultiplier: 1
+    foodConsumptionMultiplier: 1
+    craftingConsumptionMultiplier: 0.5
+    drinkingConsumptionMultiplier: 1
+    numOfMissionsForTheDay: 1
+    isRampaging: 1
+    hasRampaged: 0
+  buffName: The Alligator Queen is Rampaging!
+  description: 3 Random Bots will Stop Generating for the Day, All Other Bots will
+    take Half as Many Resources to Craft
+  mission: {fileID: 11400000, guid: 8b02270dd89c36546a6628c08c0ff4c5, type: 2}

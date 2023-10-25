@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62391ce7187849c986c9364c07732a19, type: 3}
+  m_Name: Frightened
+  m_EditorClassIdentifier: 
+  description: 'Everything Seems Dark Today... You''re Frightened
+
+
+
+'
+  lengthInHours: 4
+  minimumDay: 6
+  maximumDay: 9
+  startMissionPrompt: Go out for a walk. Maybe it'll bring up the mood!
+  difficulty: Hard
+  greatOutcome:
+    description: The walk brought a smile to your face!
+    reward:
+      entries: []
+    energyPercentChange: 50
+    randomRewardQuantity: 0
+    randomReward:
+      entries: []
+  neutralOutcome:
+    description: Eh, it was an okay walk.
+    reward:
+      entries: []
+    energyPercentChange: 0
+    randomRewardQuantity: 0
+    randomReward:
+      entries: []
+  badOutcome:
+    description: The walk drained you further.
+    reward:
+      entries: []
+    energyPercentChange: -50
+    randomRewardQuantity: 0
+    randomReward:
+      entries: []
+  timeLimit: 50

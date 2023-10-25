@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+guid: 4bcf2e460827b594b991e15c800e6b8e
+=======
+<<<<<<< HEAD
+guid: e32362d884ec52d4bada79a02522e92f
+=======
+guid: 4bcf2e460827b594b991e15c800e6b8e
+>>>>>>> 92d668017f0218dc5bf2c58f5b4c9b74cd691414
+>>>>>>> Stashed changes
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Press Start 2P
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

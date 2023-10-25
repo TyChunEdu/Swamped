@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6270f8627daa6424a85183897597ea04, type: 3}
+  m_Name: SquirrelBot
+  m_EditorClassIdentifier: 
+  Name: Squirrel Bot
+  Description: This squirrel brings you whatever it thinks is neat!
+  Image: {fileID: 21300000, guid: 107d625d7e55463409bd80f6c6ddb3b9, type: 3}
+  IngredientsList:
+    entries:
+    - key: {fileID: 11400000, guid: 968c5ec63c8953241828f4b563b712db, type: 2}
+      value: 1
+    - key: {fileID: 11400000, guid: b6f5119d4fb6357409a2fe60c2587786, type: 2}
+      value: 1
+    - key: {fileID: 11400000, guid: 14a014203dd137542826d1faccc5c4cf, type: 2}
+      value: 1
+    - key: {fileID: 11400000, guid: 16778d82eefa50d4895588ca844c5372, type: 2}
+      value: 1
+  meterName: StaminaMeter
+  decrease: -15
+  failRate: 20
+  dailyResourceGeneration:
+    entries: []
+  itemPercentages:
+    entries:
+    - key: {fileID: 11400000, guid: 968c5ec63c8953241828f4b563b712db, type: 2}
+      value: 30
+    - key: {fileID: 11400000, guid: 16778d82eefa50d4895588ca844c5372, type: 2}
+      value: 30
+    - key: {fileID: 11400000, guid: b6f5119d4fb6357409a2fe60c2587786, type: 2}
+      value: 20
+    - key: {fileID: 11400000, guid: 14a014203dd137542826d1faccc5c4cf, type: 2}
+      value: 20

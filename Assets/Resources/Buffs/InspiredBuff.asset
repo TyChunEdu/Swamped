@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62e8b846050cbb4a87b37c876bd14b0, type: 3}
+  m_Name: InspiredBuff
+  m_EditorClassIdentifier: 
+  activeDay: 03000000040000000500000006000000
+  effects:
+    energyMultiplier: 5
+    thirstMultiplier: 1
+    hungerMultiplier: 1
+    resourceCollectionMultiplier: 1
+    craftingSuccessRateMultiplier: 100
+    foodConsumptionMultiplier: 1
+    craftingConsumptionMultiplier: 1
+    drinkingConsumptionMultiplier: 1
+    numOfMissionsForTheDay: 1
+    isRampaging: 0
+  buffName: 'Everything Seems Awesome Today! You''re Inspired!  '
+  description: Crafting cannot fail today. Human Bots produce more items. Stamina
+    will go down half as fast.
+  mission: {fileID: 11400000, guid: d73e3d0e996b8b943a4ab28d59482422, type: 2}

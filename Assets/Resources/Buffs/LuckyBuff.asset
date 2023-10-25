@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62e8b846050cbb4a87b37c876bd14b0, type: 3}
+  m_Name: LuckyBuff
+  m_EditorClassIdentifier: 
+  activeDay: 07000000
+  effects:
+    energyMultiplier: 1
+    thirstMultiplier: 1
+    hungerMultiplier: 1
+    resourceCollectionMultiplier: 2
+    craftingSuccessRateMultiplier: 100
+    foodConsumptionMultiplier: 1
+    craftingConsumptionMultiplier: 1
+    drinkingConsumptionMultiplier: 1
+    numOfMissionsForTheDay: 1
+    isRampaging: 0
+  buffName: You're Feeling Lucky Today!
+  description: All Bot Resource Generation Doubled. Crafting cannot fail.
+  mission: {fileID: 11400000, guid: 05c185a6c61a5ac4ab6f20a0739bfc31, type: 2}

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2227263684912242222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2227263684912242218}
+  - component: {fileID: 2227263684912242221}
+  - component: {fileID: 2227263684912242220}
+  - component: {fileID: 2227263684912242223}
+  m_Layer: 0
+  m_Name: GlobalSingletons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2227263684912242218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2227263684912242222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 546.9818, y: 236.36734, z: -4.1584744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2227263684912242221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2227263684912242222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd123fdecaf0430e8a6f5d01802082fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  daysElapsed: 0
+  minutesElapsed: 0
+--- !u!114 &2227263684912242220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2227263684912242222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fae8475d55e755419e25f58b9dd93a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory:
+    entries:
+    - key: {fileID: 11400000, guid: 968c5ec63c8953241828f4b563b712db, type: 2}
+      value: 5
+    - key: {fileID: 11400000, guid: 16778d82eefa50d4895588ca844c5372, type: 2}
+      value: 5
+  currentMission: {fileID: 0}
+  StaminaMeter:
+    currentMeterAmount: 100
+    minuteByMinuteDecrease: 0.1
+    maxAmount: 100
+    pauseOvernight: 1
+  HungerMeter:
+    currentMeterAmount: 100
+    minuteByMinuteDecrease: 0.03
+    maxAmount: 100
+    pauseOvernight: 0
+  ThirstMeter:
+    currentMeterAmount: 100
+    minuteByMinuteDecrease: 0.03
+    maxAmount: 100
+    pauseOvernight: 0
+  isMissionAvailable: 0
+  activeBuff: {fileID: 11400000, guid: 1eaf71176cf870b41bf3759cb8b50fd8, type: 2}
+  robotItemProductionMultiplier:
+    entries: []
+  loseScreen: {fileID: 0}
+  winScreen: {fileID: 0}
+--- !u!114 &2227263684912242223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2227263684912242222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3e6470a5a6de34ba66e07eada10239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
