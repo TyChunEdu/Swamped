@@ -3,7 +3,7 @@
 This is a soft copy of the files for the Swamped group project.
 
 Some of the assets I worked on:
-- [./Assets/Audio](./Assets/Audio) (I was responsible for all audio in the game.)
+- [./Assets/Audio/](./Assets/Audio/) (I was responsible for all audio in the game.)
 - [./Assets/Scripts/DailyUpdates/Components/DailyItemGeneration.cs](./Assets/Scripts/DailyUpdates/Components/DailyItemGeneration.cs)
 - [./Assets/Scripts/DailyUpdates/Components/StoryDialogue.cs](./Assets/Scripts/DailyUpdates/Components/StoryDialogue.cs)
 - [./Assets/Scripts/Items/ItemWindow.cs](./Assets/Scripts/Items/ItemWindow.cs)
